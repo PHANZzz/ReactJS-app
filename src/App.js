@@ -11,7 +11,7 @@ function App() {
   }, []);
 
   return (
-    <div className="flex flex-col items-center justify-center bg-primary mx-20">
+    <div className="flex flex-col items-center justify-center bg-primary md:mx-20 overflow-x-auto">
     <table className="w-full table-auto border-collapse border border-blue-500 mx-auto">
         <thead>
           <tr>
